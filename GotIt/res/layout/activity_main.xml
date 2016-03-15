@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/radiobtn_00"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="普通模式"
+            />
+
+        <RadioButton
+            android:id="@+id/radiobtn_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="强力模式"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="抢微信红包" />
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_below="@id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消抢微信红包" />
+
+</RelativeLayout>
