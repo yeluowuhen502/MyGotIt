@@ -98,7 +98,7 @@ public class GotService extends AccessibilityService {
 				mRootNodeInfo = event.getSource();
 				
 				
-				List<AccessibilityNodeInfo> clickWindowList = mRootNodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/b43");
+				List<AccessibilityNodeInfo> clickWindowList = mRootNodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/b3h");
 				System.out.println("数目"+clickWindowList.size());
 
 				if (clickWindowList.size() > 0) {
